@@ -1,5 +1,6 @@
 [toolchain]
 
+
 [features]
 seeds = false
 skip-lint = false
@@ -11,7 +12,7 @@ hello_world = "5NjgwpGKcNsR5TNWSmCFTjR4PZ6kjZ4YqncqYJZccxFk"
 url = "https://api.apr.dev"
 
 [provider]
-cluster = "Localnet"
+cluster = "devnet" # [localnet, testnet, mainnet, devnet]
 wallet = "/Users/ted/.config/solana/id.json"
 
 [scripts]
