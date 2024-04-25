@@ -12,7 +12,7 @@ pub mod hello_world {
 
         *ctx.accounts.hello_world = HelloWorld {
             authority: *ctx.accounts.authority.key,
-            data
+            data,
         };
 
         Ok(())
@@ -37,7 +37,7 @@ pub struct Initialize<'info> {
     pub hello_world: Account<'info, HelloWorld>,
     #[account(mut)]
     pub authority: Signer<'info>,
-    pub system_program: Program<'info, System>
+    pub system_program: Program<'info, System>,
 }
 
 #[account]
@@ -45,7 +45,7 @@ pub struct Initialize<'info> {
 pub struct HelloWorld {
     pub authority: Pubkey,
     #[max_len(100)]
-    pub data: String
+    pub data: String,
 }
 
 #[derive(Accounts)]
@@ -57,7 +57,7 @@ pub struct UpdateHelloWorld<'info> {
     )]
     pub hello_world: Account<'info, HelloWorld>,
     #[account(mut)]
-    pub authority: Signer<'info>
+    pub authority: Signer<'info>,
 }
 
 #[error_code]
