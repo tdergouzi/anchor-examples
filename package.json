@@ -1,4 +1,7 @@
 {
+    "name": "anchor-examples",
+    "author": "Ted",
+    "keywords": ["Solana Program", "Anchor", "Program Template"],
     "scripts": {
         "dev": "ts-node --files",
         "lint:fix": "prettier */*.js \"*/**/*{.js,.ts}\" -w",
