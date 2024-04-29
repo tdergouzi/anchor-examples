@@ -1,0 +1,21 @@
+[package]
+description = "Created with Anchor"
+edition = "2021"
+name = "movie_review"
+version = "0.1.0"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "movie_review"
+
+[features]
+cpi = ["no-entrypoint"]
+default = []
+no-entrypoint = []
+no-idl = []
+no-log-ix-name = []
+
+[dependencies]
+ahash = "=0.8.6"
+anchor-lang = "0.29.0"
+solana-program = "=1.17"

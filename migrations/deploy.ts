@@ -4,9 +4,13 @@
 
 import anchor from "@coral-xyz/anchor";
 
-async function main(provider) {
+async function main() {
   // Configure client to use the provider.
+  const provider = anchor.AnchorProvider.env();
   anchor.setProvider(provider);
 
   // Add your deploy script here.
+  
 }
+
+main()
