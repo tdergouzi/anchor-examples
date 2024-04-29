@@ -14,8 +14,8 @@ describe("hello_world", () => {
     [Buffer.from("hello-world")],
     program.programId
   )
-  console.log("===========helloworld", helloWorld.toBase58());
-  console.log("===========programId", program.programId.toBase58())
+  // console.log("===========helloworld", helloWorld.toBase58());
+  // console.log("===========programId", program.programId.toBase58())
 
   it("Is initialized!", async () => {
     // Add your test here.
