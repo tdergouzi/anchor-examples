@@ -5,12 +5,12 @@ seeds = false
 skip-lint = false
 
 [programs.devnet]
-counter = "GQpWSjSsWdo9Mbpuc7WP8m6CW742JKowjXNsr28ShTDm"
+counter = "CgXMJ7jcvaSnpBD46PnQAmBk2XrGQEpAQFqL1h1NBJaS"
 hello_world = "5NjgwpGKcNsR5TNWSmCFTjR4PZ6kjZ4YqncqYJZccxFk"
 movie_review = "33b7Zs37xme6isq41o8oAnJnAfcuSP86iFPHg9bpbdb1"
 
 [programs.localnet]
-counter = "3iTFPXvhgoV146eyJGHbYYN8GxfkkiRnvu4iB4AaG779"
+counter = "CgXMJ7jcvaSnpBD46PnQAmBk2XrGQEpAQFqL1h1NBJaS"
 hello_world = "5NjgwpGKcNsR5TNWSmCFTjR4PZ6kjZ4YqncqYJZccxFk"
 movie_review = "33b7Zs37xme6isq41o8oAnJnAfcuSP86iFPHg9bpbdb1"
 

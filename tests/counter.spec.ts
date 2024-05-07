@@ -27,7 +27,7 @@ describe("counter", () => {
       .signers([counter])
       .rpc();
 
-    // console.log("Your transaction signature", tx);
+    console.log("Your transaction signature", tx);
 
     const account = await program.account.counter.fetch(counter.publicKey);
     expect(account.count.toNumber()).to.eq(0);
