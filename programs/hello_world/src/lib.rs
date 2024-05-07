@@ -1,7 +1,7 @@
 use anchor_lang::prelude::*;
 // use program::HelloWorld;
 
-declare_id!("5NjgwpGKcNsR5TNWSmCFTjR4PZ6kjZ4YqncqYJZccxFk");
+declare_id!("Csq1CUyjYdGivY9V9LowTJG6hSK9Nm3k3Q8Mpk98kE1v");
 
 #[program]
 pub mod hello_world {
